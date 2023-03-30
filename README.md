@@ -9,4 +9,16 @@
 
 
 # Proposta: 
-Você e sua equipe foram escalados para desenvolverem propostas de APIs que serão o produto mínimo viável de um aplicativo.Vocês devem escolher o tema do aplicativo para identificar as entidades.
+
+Recebemos a seguinte tarefa urgente: precisamos montar um MVP para a empresa testar o seu novo app (MVP é a sigla em inglês para Minimum Viable Product – ou Produto Mínimo Viável). Para isso vamos construir um app simples (front e back-end) que vai implementar as funcionalidades básicas do CRUD.
+
+
+# Execução:
+```bash
+
+```
+
+# instalação:
+```bash
+
+```
