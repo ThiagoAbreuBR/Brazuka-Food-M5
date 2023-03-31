@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.editOption {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.logoAnimated {
+    text-align: center;
+}
+
+.logoAnimated img {
+    text-align: center;
+    width: 10rem;
+}
+
+.newInput {
+    display: flex;
+    justify-content: center;
+    margin-top:1.4rem;
+}
+
+.formInput {
+    width: 75%;
+    box-shadow: 20px 20px 50px rgba(161, 161, 161, 0.3);
+    text-align: center;
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+textarea {
+    font-family: 'Rajdhani';
+}
+
+.addOption {
+    margin: 1.4rem;
+    text-align: center;
+}
+
+.optionName,.optionDescription,.optionTempoPreparo,.optionPreco,.optionIMG {
+    width: 75%;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.3rem;
+    padding:1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    border: 2px solid #000000;
+    border-radius:1rem 1rem;
+     margin-top:1rem;
+}
+
+.optionName:focus, .optionTempoPreparo:focus, .optionPreco:focus, .optionIMG:focus {
+    border-radius: 10px 10px;
+    padding:1rem;
+    box-shadow: #ffff00 0px 2px 33px 0px;
+}
+
+.optionDescription:focus {
+    border-radius: 10px 10px;
+    padding:2rem;
+    box-shadow: #ffff00 0px 2px 50px 0px;
+}
+
+.enviarOption {
+    width: 25%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 1.7rem;
+}
+
+.enviarOption:hover {
+    width: 30%;
+    border-radius: 10px 10px;
+    padding: 1rem;
+}
+
+.enviarOption:focus {
+    border-radius: 10px 10px;
+    box-shadow: #FFFFFF 0px 2px 50px 0px;
+}
+
+.error {
+    color: #FF0000;
+}
+
+@media(min-width:280px) and (max-width:1024px){
+    .formInput { 
+       width:100%;
+    }
+}
