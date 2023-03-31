@@ -3,7 +3,6 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 // Páginas
-import Home from './Home';
 import NewOption from './NewOption';
 import Cardapio from './Cardapio';
 import EditOption from './EditOption';
