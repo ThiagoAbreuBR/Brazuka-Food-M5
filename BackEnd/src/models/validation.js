@@ -36,7 +36,7 @@ const validationAPI = {
   },
 
   validarSpaceAccentPoint: (SpaceAccentNumberPoint) => {
-    const SpaceAccentNumberPointVALIDO = SpaceAccentNumber
+    const SpaceAccentNumberPointVALIDO = /^[a-zA-ZÀ-ÿ,. ]+$/;
     return SpaceAccentNumberPointVALIDO.test(SpaceAccentNumberPoint);
   },
 
