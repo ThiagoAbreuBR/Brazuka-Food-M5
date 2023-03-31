@@ -35,6 +35,11 @@ const validationAPI = {
     return SpaceAccentNumberVALIDO.test(SpaceAccentNumber);
   },
 
+  validarSpaceAccentPoint: (SpaceAccentNumberPoint) => {
+    const SpaceAccentNumberPointVALIDO = SpaceAccentNumber
+    return SpaceAccentNumberPointVALIDO.test(SpaceAccentNumberPoint);
+  },
+
   validarDinheiro : (dinheiro) => {
     const dinheiroVALIDO = /^R\$ \d{1,3}(,\d{3})*.\d{2}$/;
     return dinheiroVALIDO.test(dinheiro);
