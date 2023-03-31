@@ -10,7 +10,7 @@ const cardapioModel = {
         status: 400
       };
     }
-    if (!validationAPI.validarSpaceAccent(obj.descricao)) {
+    if (!validationAPI.validarSpaceAccentPoint(obj.descricao)) {
       throw {
         dados: { Error: "Descrição inválida, verique se há presença de caracter especial" },
         status: 400
