@@ -57,7 +57,12 @@ localhost:5173
 ```
 # Tecnologias utilizadas:
 
-![image](https://user-images.githubusercontent.com/116724832/229260859-4419320d-27a3-4a0e-8c3d-bc8ded20e7ef.png)
+-- Node.js
+-- Mysql
+-- React
+-- Postman
+-- Vscode
+-- Canva
 
 # Membros da Equipe:
 
