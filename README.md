@@ -57,12 +57,12 @@ localhost:5173
 ```
 # Tecnologias utilizadas:
 
--- Node.js
--- Mysql
--- React
--- Postman
--- Vscode
--- Canva
+- Node.js
+- Mysql
+- React
+- Postman
+- Vscode
+- Canva
 
 # Membros da Equipe:
 
