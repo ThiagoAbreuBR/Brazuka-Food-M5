@@ -41,7 +41,7 @@ npm run dev
 ```
 #Abra outro terminal para acessar o Front End:
 ```bash
-cd FrontEnd
+cd Frontend
 ```
 # Execute o comando:
 ```bash
